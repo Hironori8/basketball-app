@@ -1,6 +1,5 @@
 import 'package:basketball/root.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class Start extends StatelessWidget{
   @override
@@ -17,6 +16,7 @@ class Start extends StatelessWidget{
                 Text(''),
                 Text(''),
                 Text(''),
+                // ignore: deprecated_member_use
                 OutlineButton(
                   child: Text('Start'),
                   onPressed:()=> Navigator.push(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'routes/home_route.dart';
+import 'routes/member_route.dart';
 import 'routes/talk_route.dart';
 import 'routes/timeline_route.dart';
 import 'routes/wallet_route.dart';
@@ -19,7 +19,7 @@ class _RootWidgetState extends State<RootWidget>{
 
   static const _footerIcons = [
     //アイコンのリスト
-    Icons.home,
+    Icons.people,
     Icons.textsms,
     Icons.access_time,
     Icons.content_paste,
@@ -28,7 +28,7 @@ class _RootWidgetState extends State<RootWidget>{
 
   static const _footerItemNames= [
     //アイテムの名前のリスト
-    'Home',
+    'Member',
     'Talk',
     'TimeLine',
     'News',
@@ -37,7 +37,7 @@ class _RootWidgetState extends State<RootWidget>{
 
   var _routes = [
     //routeディレクトリに入れた画面の制御
-    Home(),
+    Member(),
     Talk(),
     TimeLine(),
     News(),
