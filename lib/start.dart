@@ -16,6 +16,7 @@ class Start extends StatelessWidget{
                 Text(''),
                 Text(''),
                 Text(''),
+                // ignore: deprecated_member_use
                 OutlineButton(
                   child: Text('Start'),
                   onPressed:()=> Navigator.push(
