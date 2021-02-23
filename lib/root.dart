@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'routes/member_route.dart';
 import 'routes/talk_route.dart';
 import 'routes/timeline_route.dart';
-import 'routes/wallet_route.dart';
+import 'routes/place_route.dart';
 import 'routes/new_route.dart';
 
 class RootWidget extends StatefulWidget{
@@ -23,7 +23,7 @@ class _RootWidgetState extends State<RootWidget>{
     Icons.textsms,
     Icons.access_time,
     Icons.content_paste,
-    Icons.work,
+    Icons.place,
   ];
 
   static const _footerItemNames= [
@@ -32,7 +32,7 @@ class _RootWidgetState extends State<RootWidget>{
     'Talk',
     'TimeLine',
     'News',
-    'Wallet',
+    'Place',
   ];
 
   var _routes = [
@@ -41,7 +41,7 @@ class _RootWidgetState extends State<RootWidget>{
     Talk(),
     TimeLine(),
     News(),
-    Wallet(),
+    Place(),
   ];
 
   @override
