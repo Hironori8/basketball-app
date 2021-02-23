@@ -9,7 +9,7 @@ class Member extends StatelessWidget{
         title: Text('メンバー')
       ),
       body: ListView( 
-        children:List.generate(10,(index){
+        children:List.generate(3,(index){
           return InkWell(
             onTap: (){
               Navigator.push(context,MaterialPageRoute(builder: (context) => MemberDetail()));
