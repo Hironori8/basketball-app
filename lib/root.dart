@@ -4,7 +4,8 @@ import 'routes/member_route.dart';
 import 'routes/talk_route.dart';
 import 'routes/timeline_route.dart';
 import 'routes/place_route.dart';
-import 'routes/new_route.dart';
+import 'routes/command_route.dart';
+
 
 class RootWidget extends StatefulWidget{
   RootWidget({Key key}):super(key:key);
@@ -30,8 +31,8 @@ class _RootWidgetState extends State<RootWidget>{
     //アイテムの名前のリスト
     'Member',
     'Talk',
-    'TimeLine',
-    'News',
+    'History',
+    'Command',
     'Place',
   ];
 
@@ -40,7 +41,7 @@ class _RootWidgetState extends State<RootWidget>{
     Member(),
     Talk(),
     TimeLine(),
-    News(),
+    Command(),
     Place(),
   ];
 

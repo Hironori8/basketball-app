@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 
-class PlaceDetail extends StatefulWidget{
+class CommandDetail extends StatefulWidget{
   @override
-  _PlaceDetailState createState() => _PlaceDetailState();
+  _CommandDetailState createState() => _CommandDetailState();
 }
-class _PlaceDetailState extends State<PlaceDetail> {
+class _CommandDetailState extends State<CommandDetail> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-          title: Text('練習場所詳細')
+          title: Text('作戦詳細')
       ),
       body: Card(
           child:Column(
