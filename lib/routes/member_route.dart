@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'member_pick_route.dart';
+import 'member_detail_route.dart';
 
 class Member extends StatelessWidget{
   @override
